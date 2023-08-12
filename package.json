@@ -1,0 +1,39 @@
+{
+  "name": "cn-ex",
+  "version": "1.0.0",
+  "description": "Utility functions of class string groups and conditionals.",
+  "author": "Ilham Khoeri <ilkhoeri@gmail.com>",
+  "main": "dist/cnx.js",
+  "types": "dist/types/cnx.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioeridev/cn-ex.git"
+  },
+  "homepage": "https://github.com/ioeridev/cn-ex#readme",
+  "bugs": {
+    "url": "https://github.com/ioeridev/cn-ex/issues"
+  },
+  "keywords": [
+    "classes",
+    "className",
+    "classNames",
+    "clsx",
+    "frontend",
+    "css",
+    "react"
+  ],
+  "scripts": {
+    "up": "yarn publish",
+    "build": "tsc --project tsconfig.json",
+    "lint": "eslint src --cache",
+    "format": "prettier src",
+    "format:check": "prettier --check src",
+    "typecheck": "tsc --noEmit",
+    "jest": "jest",
+    "test": "npm run lint && npm run format:check && npm run typecheck && npm run jest"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
