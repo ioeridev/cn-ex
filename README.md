@@ -25,6 +25,9 @@ yarn add cn-ex
 ## Usage
 
 ```js
+import { cnx } from 'cn-ex';
+// const { cnx}  = require('cnx');
+
 const clNx = cnx(
   ['class_root', `variant-${variant}`, `size-${props.size}`, !(variant === 'unstyled') && classes.root],
   classNames?.root,
