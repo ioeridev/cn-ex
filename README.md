@@ -29,13 +29,26 @@ import { cnx } from 'cn-ex';
 // const { cnx}  = require('cnx');
 
 const clNx = cnx(
-  ['class_root', `variant-${variant}`, `size-${props.size}`, !(variant === 'unstyled') && classes.root],
+  [
+    'class_root',
+    `variant-${variant}`,
+    `size-${props.size}`,
+    !(variant === 'unstyled') && classes.root,
+  ],
   classNames?.root,
   className
 );
-  ...
-  // Contoh dengan banyak nilaiPertama dan nilaiKedua
-<div className={cnx(['class1', 'class2', clNx], classNames?.root, className, `additionalClass1`, `additionalClass2`)} />
+
+// Contoh dengan banyak nilaiPertama dan nilaiKedua
+<div
+  className={cnx(
+    ['class1', 'class2', clNx],
+    classNames?.root,
+    className,
+    `additionalClass1`,
+    `additionalClass2`
+  )}
+/>;
 ```
 
 🚨
