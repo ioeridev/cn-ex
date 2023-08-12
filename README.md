@@ -2,6 +2,15 @@
 
 The utility functions of class string groups and conditionals.
 
+<div align="left">
+  <a href="https://www.npmjs.com/package/cn-ex">
+    <img src="https://badgen.net/npm/v/cn-ex" alt="version" />
+  </a>
+  <a href="https://npmjs.org/package/cn-ex">
+    <img src="https://badgen.now.sh/npm/dm/cn-ex" alt="downloads" />
+  </a>
+</div>
+
 ### `Required`
 
 `*`
